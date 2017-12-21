@@ -1,0 +1,27 @@
+{
+    "name": "patriotblog/yii-zarinpal",
+    "description": "Online Zarinpal Payment Extension For Yii 1.x",
+    "type": "yii-extension",
+    "keywords": ["zarinpal","online","payment","iran","persian"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "MohammadAli Taebi",
+            "email": "taebi.ali@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "patriotblog\\yii_zarinpal\\": ""
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "git@github.com:patriotblog/yii-zarinpal.git"
+        }
+    ]
+}
