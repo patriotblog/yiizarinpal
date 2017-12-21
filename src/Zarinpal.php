@@ -15,6 +15,7 @@ class Zarinpal extends \CModel
     private $redirectUrl;
     private $_ref_id;
 
+
     public function attributeNames(){
         return array(
             'status',
